@@ -1,3 +1,5 @@
+![Project Banner](data/banner.png)
+
 # Order Data Analysis CLI
 
 A simple command-line tool for analyzing customer orders from a CSV file. It supports product/client search, filtering by date, statistics, and top rankings — all with a user-friendly colored interface.
