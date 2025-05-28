@@ -1,5 +1,9 @@
 ![Project Banner](data/banner.png)
 
+![Python](https://img.shields.io/badge/python-3.7%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-Active-brightgreen)
+
 # Order Data Analysis CLI
 
 A simple command-line tool for analyzing customer orders from a CSV file. It supports product/client search, filtering by date, statistics, and top rankings — all with a user-friendly colored interface.
@@ -36,7 +40,7 @@ project/
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/order-data-analysis-cli.git
+git clone https://github.com/CraftSher/Order-Analysis-Clients.git
 cd order-data-analysis-cli
 pip install -r requirements.txt
 ```
@@ -46,9 +50,6 @@ pip install -r requirements.txt
 - colorama
 - pytest
 
-```bash
-pip install colorama pytest
-```
 
 ## Usage
 
