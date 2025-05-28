@@ -10,7 +10,7 @@ A simple command-line tool for analyzing customer orders from a CSV file. It sup
 
 ## Features
 
-- Load and validate order data from `orders.csv`
+- Load and validate order data from `data/orders.csv`
 - Show general statistics:
   - Total orders
   - Total revenue
@@ -27,7 +27,7 @@ A simple command-line tool for analyzing customer orders from a CSV file. It sup
 ## Folder structure
 
 ```
-project/
+Order-Analysis-Clients/
 │
 ├── main.py
 ├── utils.py
@@ -41,7 +41,7 @@ project/
 
 ```bash
 git clone https://github.com/CraftSher/Order-Analysis-Clients.git
-cd order-data-analysis-cli
+cd Order-Analysis-Clients-cli
 pip install -r requirements.txt
 ```
 
@@ -73,6 +73,10 @@ Menu:
 0. Exit
 ```
 
+## Screenshot of Program Output
+
+![Terminal Output](data/output_terminal.png)
+
 ## Sample `orders.csv`
 
 ```csv
@@ -91,3 +95,7 @@ pytest test_utils.py
 ## License
 
 MIT License — free to use, modify and distribute.
+
+## Author
+
+Created by [CraftSher](https://github.com/CraftSher)
